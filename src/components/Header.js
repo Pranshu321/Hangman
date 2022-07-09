@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <h1>Hangman</h1>
+      <h1><span><img src='./hangman.png' alt='logo' width="44" /></span>   Hangman</h1>
       <p style={{color: "#20a7ff"}}>Find the Hidden Word & Unleash Your Vocabluary ▶</p>
     </>
   )
