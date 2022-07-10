@@ -6,10 +6,12 @@ import Word from './components/Word';
 import Popup from './components/Popup';
 import Notification from './components/Notification';
 import { showNotification as show} from './helpers/helpers';
+import randomWords from 'random-words';
 
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = randomWords(100000);
+
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
